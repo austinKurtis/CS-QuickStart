@@ -6,7 +6,13 @@ namespace DeclareVariables
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string aFriend = "Bill";
+                Console.WriteLine("Hello " + aFriend);
+
+            aFriend = "Maria";
+            Console.WriteLine("Hello " + aFriend);
+
+            Console.WriteLine($"Hello {aFriend}");
         }
     }
 }
