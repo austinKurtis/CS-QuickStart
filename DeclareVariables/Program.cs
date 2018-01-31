@@ -43,6 +43,17 @@ namespace DeclareVariables
             Console.WriteLine(whatUp);
             Console.WriteLine(whatUp.ToUpper());
             Console.WriteLine(whatUp.ToLower());
+
+            string beatles = "You say goodbye, and I say hello";
+            Console.WriteLine(beatles.Contains("goodbye"));
+            Console.WriteLine(beatles.Contains("greetings"));
+
+            // Challenge
+
+            Console.WriteLine(beatles.StartsWith("You"));
+            Console.WriteLine(beatles.StartsWith("goodbye"));
+            Console.WriteLine(beatles.EndsWith("goodbye"));
+            Console.WriteLine(beatles.EndsWith("hello"));
         }
     }
 }
